@@ -1,10 +1,12 @@
 import NavBar from "./components/NavBar"
+import PageHeader from "./components/PageHeader"
 
 function App() {
 
   return (
-    <div className="">
+    <div>
       <NavBar />
+      <PageHeader />
     </div>
   )
 }
