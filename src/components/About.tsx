@@ -2,7 +2,7 @@ import coverPhoto from "../assets/images/coverPhoto.JPG";
 
 export default function About() {
   return (
-    <div className="bg-[#FAFAFB] py-[100px]">
+    <div className="bg-[#FAFAFB] pt-[50px] pb-[100px]">
       <div className="pt-8 ">
         <p className="px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit mx-auto">
           About me
