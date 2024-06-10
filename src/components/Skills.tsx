@@ -1,3 +1,5 @@
+import { Element } from 'react-scroll';
+
 import JS from "../assets/images/js.png";
 import TS from "../assets/images/ts.png";
 import Express from "../assets/images/expressjs.png";
@@ -54,23 +56,25 @@ const images = [
 
 export default function Skills() {
   return (
-    <div>
-      <div className="my-14 pt-8 flex flex-col items-center">
-        <p className="px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit">
-          Skills
-        </p>
-        <p className="mt-6 text-xl font-semibold">
-          The skills, tools, and technologies I am good at:
-        </p>
-        <div className="flex flex-wrap">
-            {images.map((item) => (
-              <div className="items-center flex flex-col mt-12 mx-20">
-                <img src={item.image} className="w-[70px] h-[70px]" alt={item.title} />
-                <p className="mt-2 font-semibold text-lg">{item.title}</p>
-              </div>
-            ))}
+    <Element name='skills'>
+        <div>
+          <div className="my-14 pt-8 flex flex-col items-center">
+            <p className="px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit">
+              Skills
+            </p>
+            <p className="mt-6 text-xl font-semibold">
+              The skills, tools, and technologies I am good at:
+            </p>
+            <div className="flex flex-wrap mb-8">
+                {images.map((item, index) => (
+                  <div key={index} className="items-center flex flex-col mt-12 mx-20">
+                    <img src={item.image} className="w-[70px] h-[70px]" alt={item.title} />
+                    <p className="mt-2 font-semibold text-lg">{item.title}</p>
+                  </div>
+                ))}
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+    </Element>
   );
 }
