@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.intro-div {
+    @apply flex flex-col-reverse tablet:flex-row px-8 py-12;
+}
+
+.intro-title {
+    @apply text-xl tablet:text-4xl desktop:text-5xl font-bold dark:text-white
+}
+
+.intro-description {
+    @apply mt-4 text-sm tablet:text-base desktop:text-lg dark:text-white
+}

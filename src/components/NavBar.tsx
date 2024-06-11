@@ -13,9 +13,9 @@ export default function NavBar() {
   }, [dark]);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 py-4 flex justify-between dark:bg-[#030712] bg-white">
+    <div className="fixed top-0 left-0 right-0 z-50 h-[64px] py-4 flex justify-between dark:bg-[#030712] bg-white">
       <div className="ml-8 dark:text-white">&nbsp;</div>
-      <div className="mr-8 flex items-center">
+      <div className="hidden tablet:flex mr-8 items-center">
         <Link to="about" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">About</Link>
         <Link to="skills" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Skills</Link>
         <Link to="experience" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Experience</Link>
@@ -37,6 +37,9 @@ export default function NavBar() {
         <button className="mx-4 px-4 py-1 rounded-xl bg-[#101727] dark:bg-white text-white dark:text-[#101727] font-semibold">
           Download CV
         </button>
+      </div>
+      <div className="tablet:hidden dark:text-white">
+        <i className="fa-solid fa-bars mr-8 text-3xl"></i>
       </div>
     </div>
   );

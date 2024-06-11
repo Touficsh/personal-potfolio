@@ -6,6 +6,11 @@ export default {
   ],
   darkMode: 'selector',
   theme: {
+    screens:{
+      mobile: '320px',
+      tablet: '768px',
+      desktop: '1200px',
+    },
     extend: {},
   },
   plugins: [],

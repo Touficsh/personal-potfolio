@@ -3,12 +3,12 @@ import coverPhoto from "../assets/images/coverPhoto.JPG";
 export default function PageHeader() {
   return (
     <div className="mt-[64px] dark:bg-[#030712]">
-      <div className="flex px-8 py-12">
-        <div className="basis-2/3 mx-8">
-          <p className="text-5xl font-bold dark:text-white">
+      <div className="intro-div">
+        <div className="basis-2/3 mx-8 mt-10 tablet:mt-0">
+          <p className="intro-title">
             Hi, I'm Toufic👋
           </p>
-        <p className="mt-4 dark:text-white">
+        <p className="intro-description">
             is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
@@ -31,7 +31,7 @@ export default function PageHeader() {
         </div>
         <div className="basis-1/3 flex justify-center ">
           <img src={coverPhoto} className="w-[150px] h-[200px] z-10 border-[7px] border-white dark:border-[#030712]" alt="Image" />
-          <div className="bg-[#E6E8EB] w-[150px] h-[200px] absolute mt-5 ml-10 dark:bg-[#374151]" ></div>
+          <div className="bg-[#E6E8EB] w-[170px] h-[180px] mt-7 tablet:w-[150px] tablet:h-[200px] absolute tablet:mt-5 tablet:ml-10 dark:bg-[#374151]" ></div>
         </div>
       </div>
     </div>
