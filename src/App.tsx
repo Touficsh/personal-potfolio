@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div className="pt-20">
         <PageHeader />
         <About />
         <Skills />
@@ -20,7 +19,6 @@ function App() {
         <Work />
         <Contact />
         <Footer />
-      </div>
     </div>
   )
 }

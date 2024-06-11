@@ -2,7 +2,7 @@ import { Element } from 'react-scroll';
 
 import JS from "../assets/images/js.png";
 import TS from "../assets/images/ts.png";
-import Express from "../assets/images/expressjs.png";
+import Express from "../assets/images/expressjs.webp";
 import Mongo from "../assets/images/mongo.png";
 import NodeJs from "../assets/images/nodejs.png";
 import React from "../assets/images/React.webp";
@@ -57,15 +57,15 @@ const images = [
 export default function Skills() {
   return (
     <Element name='skills'>
-        <div>
-          <div className="my-14 pt-8 flex flex-col items-center">
-            <p className="px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit">
+        <div className='dark:bg-[#030712]'>
+          <div className="py-14 flex flex-col items-center">
+            <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white  text-sm rounded-full font-semibold w-fit">
               Skills
             </p>
-            <p className="mt-6 text-xl font-semibold">
+            <p className="mt-6 text-xl font-semibold dark:text-white">
               The skills, tools, and technologies I am good at:
             </p>
-            <div className="flex flex-wrap mb-8">
+            <div className="flex flex-wrap mb-8 dark:text-white">
                 {images.map((item, index) => (
                   <div key={index} className="items-center flex flex-col mt-12 mx-20">
                     <img src={item.image} className="w-[70px] h-[70px]" alt={item.title} />

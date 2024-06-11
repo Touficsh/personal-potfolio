@@ -5,13 +5,13 @@ import coverPhoto from "../assets/images/coverPhoto.JPG";
 export default function About() {
   return (
     <Element name="about">
-      <div className="bg-[#FAFAFB] pt-[50px] pb-[100px]">
+      <div className="bg-[#FAFAFB] dark:bg-[#111827] pt-[50px] pb-[100px]">
         <div className="pt-8 ">
-          <p className="px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit mx-auto">
+          <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit mx-auto">
             About me
           </p>
         </div>
-        <div className="flex mt-14 mx-[140px]">
+        <div className="flex mt-14 mx-[140px] dark:text-white">
           <div className="flex justify-center basis-1/2 ">
             <img
               src={coverPhoto}

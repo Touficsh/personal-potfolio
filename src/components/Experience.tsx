@@ -1,4 +1,4 @@
-import Anywr from "../assets/images/Anywr.png";
+import Anywr from "../assets/images/anywr.webp";
 import { Element } from 'react-scroll';
 
 const experience = [
@@ -37,19 +37,19 @@ const experience = [
 export default function Experience() {
   return (
     <Element name='experience'>
-        <div className="bg-[#FAFAFB]">
+        <div className="bg-[#FAFAFB] dark:bg-[#111827]">
           <div className="py-20 flex flex-col items-center">
-            <p className=" px-4 py-1 bg-[#E6E8EB] text-sm rounded-full font-semibold w-fit mx-auto">
+            <p className=" px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit mx-auto">
               About me
             </p>
-            <p className="mt-4 font-semibold">
+            <p className="mt-4 font-semibold dark:text-white">
               Here is a quick summary of my most recent experiences:
             </p>
             <div className="mt-8">
                 {
                     experience.map((item, index) => 
                         (
-                            <div key={index} className="flex justify-between my-12 p-4 rounded-xl bg-white shadow-lg">
+                            <div key={index} className="flex justify-between my-12 p-4 rounded-xl bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
                             <img src={item.image} className="w-[100px] h-[50px]" />
                             <div className="mx-20 w-[500px]">
                               <p className="font-bold text-lg">{item.Position}</p>

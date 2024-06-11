@@ -14,7 +14,7 @@ export default function NavBar() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 py-4 flex justify-between dark:bg-[#030712] bg-white">
-      <div className="ml-8 dark:text-white">LOGO</div>
+      <div className="ml-8 dark:text-white">&nbsp;</div>
       <div className="mr-8 flex items-center">
         <Link to="about" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">About</Link>
         <Link to="skills" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Skills</Link>

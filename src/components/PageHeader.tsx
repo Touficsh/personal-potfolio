@@ -2,7 +2,7 @@ import coverPhoto from "../assets/images/coverPhoto.JPG";
 
 export default function PageHeader() {
   return (
-    <div className="dark:bg-[#030712]">
+    <div className="mt-[64px] dark:bg-[#030712]">
       <div className="flex px-8 py-12">
         <div className="basis-2/3 mx-8">
           <p className="text-5xl font-bold dark:text-white">
