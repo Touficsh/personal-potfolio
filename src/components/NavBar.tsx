@@ -19,8 +19,8 @@ export default function NavBar() {
         <Link to="about" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">About</Link>
         <Link to="skills" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Skills</Link>
         <Link to="experience" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Experience</Link>
-        <Link to="projects" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Projects</Link>
-        <Link to="contacts" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Contacts</Link>
+        <Link to="work" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Projects</Link>
+        <Link to="contact" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold">Contacts</Link>
         <div className="inline-block h-[14px] w-[2px] bg-[#F6F7F7]"></div>
         <button
           className="text-[#757D87] ml-3 dark:hidden"

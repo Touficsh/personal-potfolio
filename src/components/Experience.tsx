@@ -28,8 +28,9 @@ const experience = [
         Position: 'Project Coordinator',
         Details: [
             'Designed a Flutter-based application that optimizes technician workflows by transitioning from paper to tablet-based form submissions. The app directly emails submissions to clients, aiding in quotation creation and identifying necessary items for future visits.',
+            'Collaborated with project managers and facility management companies to ensure timely project submissions, aligning effectively with consultant requirements for successful project delivery.'
         ],
-        Date: 'Dec 2015 - May 2017'
+        Date: 'June 2020 - Feb 2023'
     },
 ]
 
