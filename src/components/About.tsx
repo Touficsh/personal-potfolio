@@ -11,7 +11,7 @@ export default function About() {
             About me
           </p>
         </div>
-        <div className="flex mobile:flex-col tablet:flex-row  mt-14 mobile:mx-[0px] tablet:mx-[140px] dark:text-white">
+        <div className="flex mobile:flex-col tablet:flex-row  mt-14 mobile:mx-[0px] tablet:mx-[40px] desktop:mx-[140px] dark:text-white">
           <div className="flex justify-center tablet:basis-1/2 ">
             <img
               src={coverPhoto}
