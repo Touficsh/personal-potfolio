@@ -42,24 +42,25 @@ export default function Experience() {
             <p className=" px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit mx-auto">
               About me
             </p>
-            <p className="mt-4 font-semibold dark:text-white">
+            <p className="mobile:mx-6 tablet:mx-0 mt-4 font-semibold dark:text-white">
               Here is a quick summary of my most recent experiences:
             </p>
-            <div className="mt-8">
+            <div className="mt-8 mobile:mx-4">
                 {
                     experience.map((item, index) => 
                         (
-                            <div key={index} className="flex justify-between my-12 p-4 rounded-xl bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
-                            <img src={item.image} className="w-[100px] h-[50px]" />
-                            <div className="mx-20 w-[500px]">
-                              <p className="font-bold text-lg">{item.Position}</p>
-                              <ul className="mt-4 list-disc text-sm">
+                            <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
+                            <img src={item.image} className="mobile:w-[100px] w-[100px] h-[50px]" />
+                            <p className="mobile:inline tablet:hidden mobile:text-sm tablet:text-md desktop:text-lg text-[#767D88] font-semibold">{item.Date}</p>
+                            <div className=" tablet:mx-20  mobile:w-fit w-[500px]">
+                              <p className="mobile:mt-2 tablet:mt-0 font-bold mobile:text-md tablet:text-lg desktop:text-xl">{item.Position}</p>
+                              <ul className=" mt-4 list-disc text-sm">
                                 { item.Details.map((item, index) => (
-                                    <li key={index}>{item}</li>
+                                    <li className="mobile:mx-4 tablet:mx-0 mobile:text-sm tablet:text-md desktop:text-lg" key={index}>{item}</li>
                                 ))}
                               </ul>
                             </div>
-                            <p className="text-[#767D88] font-semibold">{item.Date}</p>
+                            <p className="mobile:hidden tablet:inline tablet:text-md desktop:text-lg text-[#767D88] font-semibold">{item.Date}</p>
                           </div>
                     ))
                 }
