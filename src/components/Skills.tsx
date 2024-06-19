@@ -62,7 +62,7 @@ export default function Skills() {
             <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white  text-sm rounded-full font-semibold w-fit">
               Skills
             </p>
-            <p className="mt-6 mobile:mx-4 mobile:text-md tablet:text-lg desktop:text-xl font-semibold dark:text-white">
+            <p className="mt-6 mobile:mx-[30px] mobile:text-md tablet:text-lg desktop:text-xl font-semibold dark:text-white">
               The skills, tools, and technologies I am good at:
             </p>
             <div className="flex flex-wrap mb-8 mt-8 justify-center dark:text-white">

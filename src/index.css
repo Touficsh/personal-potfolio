@@ -13,3 +13,11 @@
 .intro-description {
     @apply mt-4 text-sm tablet:text-base desktop:text-lg dark:text-white
 }
+
+.experience-div {
+    @apply   mobile:mx-[10px] tablet:mx-[80px]  desktop:mx-[180px]
+}
+
+.experience-text {
+    
+}

@@ -49,14 +49,14 @@ export default function Experience() {
                 {
                     experience.map((item, index) => 
                         (
-                            <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
+                            <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl experience-div bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
                             <img src={item.image} className="mobile:w-[100px] w-[100px] h-[50px]" />
                             <p className="mobile:inline tablet:hidden mobile:text-sm tablet:text-md desktop:text-lg text-[#767D88] font-semibold">{item.Date}</p>
                             <div className=" tablet:mx-20  mobile:w-fit w-[500px]">
                               <p className="mobile:mt-2 tablet:mt-0 font-bold mobile:text-md tablet:text-lg desktop:text-xl">{item.Position}</p>
                               <ul className=" mt-4 list-disc text-sm">
                                 { item.Details.map((item, index) => (
-                                    <li className="mobile:mx-4 tablet:mx-0 mobile:text-sm tablet:text-md desktop:text-lg" key={index}>{item}</li>
+                                    <li className="mobile:mx-4 tablet:mx-0 mobile:text-sm tablet:text-base desktop:text-base" key={index}>{item}</li>
                                 ))}
                               </ul>
                             </div>

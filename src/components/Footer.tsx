@@ -4,7 +4,7 @@ export default function Footer() {
     const year = date.getFullYear();
   return (
     <div className="flex justify-center dark:bg-[#030712] dark:text-white">
-        <p className="py-4 font-semibold">© {year} | Coded by Toufic Charafeddine</p>
+        <p className="py-4 mobile:py-2 mobile:text-sm text-base font-semibold">© {year} | Coded by Toufic Charafeddine</p>
     </div>
   )
 }
