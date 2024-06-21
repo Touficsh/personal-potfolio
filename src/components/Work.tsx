@@ -20,32 +20,32 @@ export default function Work() {
           <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit">
             Work
           </p>
-          <p className="mt-4 font-semibold dark:text-white">
+          <p className="mt-4 font-semibold work-borderbox dark:text-white">
             Here is a quick summary of my most recent experiences:
           </p>
           {projects.map((item) => (
-            <div className="mt-16 px-20 flex mobile:flex-col tablet:flex-row">
-              <div className="flex basis-1/2 rounded-l-lg bg-[#F9F9FB] dark:bg-[#374151] items-center justify-center shadow-lg">
+            <div className="mt-16 mobile:px-4 tablet:px-20 flex mobile:flex-col tablet:flex-row">
+              <div className="flex basis-1/2 work-image bg-[#F9F9FB] dark:bg-[#374151] items-center justify-center">
                 <div className="p-8">
-                  <img src={orenda} className=" rounded-lg shadow-lg" />
+                  <img src={orenda} className="rounded-lg shadow-lg" />
                 </div>
               </div>
-              <div className=" basis-1/2 rounded-r-lg shadow-lg py-16 dark:bg-[#1F2937]">
-                <p className="font-bold  ml-8 dark:text-white">
+              <div className=" basis-1/2 mobile:rounded-b-lg tablet:rounded-r-lg shadow-lg mobile:py-6 tablet:py-16 dark:bg-[#1F2937]">
+                <p className=" work-projectName  ">
                   {item.projectName}
                 </p>
-                <p className="mt-8 ml-8 pr-16 dark:text-white">
+                <p className=" work-projectDescription ">
                   {item.projectDescription}
                 </p>
-                <div className="mt-8 ml-4 flex flex-wrap">
+                <div className="mobile:mt-4 tablet:mt-8 ml-4 flex flex-wrap">
                   {item.projectLanguages.map((item) => (
-                    <p className="mx-2 my-1 px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit">
+                    <p className="work-projectLanguages">
                       {item}
                     </p>
                   ))}
                 </div>
                 <button
-                  className="ml-10 mt-8 dark:text-white"
+                  className="mobile:ml-6 mobile:mb-4 tablet:mb-0 tablet:ml-10 mt-8 dark:text-white"
                   onClick={() =>
                     window.open(`${item.redirectWebsite}`, "_blank")
                   }

@@ -18,6 +18,20 @@
     @apply   mobile:mx-[10px] tablet:mx-[80px]  desktop:mx-[180px]
 }
 
-.experience-text {
-    
+.work-borderbox {
+    @apply mobile:mx-[40px]
+}
+
+.work-image {
+    @apply mobile:rounded-t-lg mobile:shadow-none tablet:shadow-lg tablet:rounded-l-lg
+}
+
+.work-projectName {
+    @apply font-bold mobile:ml-4 mobile:text-sm tablet:ml-8 tablet:text-base dark:text-white
+}
+.work-projectDescription {
+    @apply mobile:mt-4 tablet:mt-8 tablet:ml-8 mobile:text-[10px] mobile:pr-4  mobile:ml-4 tablet:text-sm tablet:pr-16 dark:text-white
+}
+.work-projectLanguages {
+    @apply mobile:mx-1 tablet:mx-2 my-1 mobile:text-[8px] mobile:px-2 tablet:px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white tablet:text-sm rounded-full font-semibold w-fit
 }
