@@ -30,7 +30,7 @@ export default function Work() {
                   <img src={orenda} className="rounded-lg shadow-lg" />
                 </div>
               </div>
-              <div className=" basis-1/2 mobile:rounded-b-lg tablet:rounded-r-lg shadow-lg mobile:py-6 tablet:py-16 dark:bg-[#1F2937]">
+              <div className=" basis-1/2 mobile:work-second-section-mobile tablet:work-second-section-tablet desktop:rounded-r-lg shadow-lg mobile:py-6 tablet:py-16 dark:bg-[#1F2937]">
                 <p className=" work-projectName  ">
                   {item.projectName}
                 </p>

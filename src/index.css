@@ -23,7 +23,7 @@
 }
 
 .work-image {
-    @apply mobile:rounded-t-lg mobile:shadow-none tablet:shadow-lg tablet:rounded-l-lg
+    @apply  mobile:work-first-section-mobile tablet:work-first-section-tablet mobile:shadow-none tablet:shadow-lg 
 }
 
 .work-projectName {
@@ -35,3 +35,30 @@
 .work-projectLanguages {
     @apply mobile:mx-1 tablet:mx-2 my-1 mobile:text-[8px] mobile:px-2 tablet:px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white tablet:text-sm rounded-full font-semibold w-fit
 }
+
+@media (min-width: 320px) {
+    .mobile\:work-first-section-mobile {
+      border-radius: 10px 10px 0 0; /* Same as rounded-b-lg */
+    }
+    .mobile\:work-second-section-mobile {
+      border-radius: 0 0 10px 10px; /* Same as rounded-b-lg */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .tablet\:work-first-section-tablet {
+      border-radius: 10px 0 0 10px; /* Same as rounded-r-lg */
+    }
+    .tablet\:work-second-section-tablet {
+      border-radius: 0 10px 10px 0; /* Same as rounded-r-lg */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .desktop\:work-first-section-desktop {
+        border-radius: 10px 0 0 10px; /* Same as rounded-r-lg */
+    }
+    .desktop\:work-second-section-desktop {
+      border-radius: 0 10px 10px 0; /* Same as rounded-r-lg */
+    }
+  }
