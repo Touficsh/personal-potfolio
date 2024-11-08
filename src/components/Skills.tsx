@@ -10,6 +10,12 @@ import Redux from "../assets/images/redux.png";
 import scss from "../assets/images/scss.png";
 import tailwind from "../assets/images/tailwind.png";
 import Vue from "../assets/images/Vue.png";
+import MPGS from "../assets/images/mpgs.png";
+import Cybersource from "../assets/images/cybersource.png";
+import APAYA from "../assets/images/apaya.png";
+import IXOPAY from "../assets/images/ixopay.png";
+import VisaDirect from "../assets/images/visa-direct.jpg";
+
 
 const images = [
   {
@@ -51,6 +57,26 @@ const images = [
   {
     title: "Tailwindcss",
     image: tailwind,
+  },
+  {
+    title: "MPGS",
+    image: MPGS,
+  },
+  {
+    title: "Cybersource",
+    image: Cybersource,
+  },
+  {
+    title: "APAYA",
+    image: APAYA,
+  },
+  {
+    title: "IXOPAY",
+    image: IXOPAY,
+  },
+  {
+    title: "Visa Direct",
+    image: VisaDirect,
   },
 ];
 
