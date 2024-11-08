@@ -18,7 +18,7 @@ export default function About() {
               className="mobile:w-[280px] mobile:h-[350px] tablet:w-[300px] tablet:h-[400px] border-[7px] z-10 border-white dark:border-[#030712]"
               alt="Image"
             />
-            <div className="tablet:mr-10 bg-[#E6E8EB] mobile:w-[300px] mobile:h-[330px]  tablet:w-[300px] tablet:h-[400px] absolute  dark:bg-[#374151]"></div>
+            <div className="tablet:mr-10 mt-10 bg-[#E6E8EB] mobile:w-[300px] mobile:h-[330px]  tablet:w-[300px] tablet:h-[400px] absolute  dark:bg-[#374151]"></div>
           </div>
           <div className="mobile:mt-16 mobile:mx-8 tablet:mx-0 tablet:mt-0 flex flex-col align-middle basis-1/2">
             <p className="text-2xl font-bold">Title for about</p>
