@@ -15,7 +15,7 @@ export default function About() {
           <div className="flex justify-center tablet:basis-1/2 ">
             <img
               src={coverPhoto}
-              className="mobile:w-[280px] mobile:h-[350px] tablet:w-[300px] tablet:h-[400px] border-[7px] z-10 border-white dark:border-[#030712]"
+              className="mobile:w-[280px] mobile:h-[350px] tablet:w-[300px] tablet:h-[400px] border-[7px] z-10 border-white dark:border-[#111827]"
               alt="Image"
             />
             <div className="tablet:mr-10 mt-10 bg-[#E6E8EB] mobile:w-[300px] mobile:h-[330px]  tablet:w-[300px] tablet:h-[400px] absolute  dark:bg-[#374151]"></div>

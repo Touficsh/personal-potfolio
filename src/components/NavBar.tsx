@@ -34,9 +34,9 @@ export default function NavBar() {
         >
           <i className="fa-solid fa-moon"></i>
         </button>
-        <button className="mx-4 px-4 py-1 rounded-xl bg-[#101727] dark:bg-white text-white dark:text-[#101727] font-semibold">
+        {/* <button className="mx-4 px-4 py-1 rounded-xl bg-[#101727] dark:bg-white text-white dark:text-[#101727] font-semibold">
           Download CV
-        </button>
+        </button> */}
       </div>
       <div className="tablet:hidden dark:text-white">
         <i className="fa-solid fa-bars mr-8 text-3xl"></i>
