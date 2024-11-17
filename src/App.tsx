@@ -1,4 +1,4 @@
-import About from "./components/About"
+// import About from "./components/About"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
@@ -13,7 +13,7 @@ function App() {
     <div>
       <NavBar />
         <PageHeader />
-        <About />
+        {/* <About /> */}
         <Skills />
         <Experience />
         <Work />

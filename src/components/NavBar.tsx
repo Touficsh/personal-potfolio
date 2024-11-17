@@ -16,11 +16,11 @@ export default function NavBar() {
     <div className="fixed top-0 left-0 right-0 z-50 h-[64px] py-4 flex justify-between dark:bg-[#171717] bg-white">
       <div className="ml-8 dark:text-white">&nbsp;</div>
       <div className="hidden tablet:flex mr-8 items-center">
-        <Link to="about" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">About</Link>
-        <Link to="skills" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">Skills</Link>
-        <Link to="experience" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">Experience</Link>
-        <Link to="work" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">Projects</Link>
-        <Link to="contact" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">Contacts</Link>
+        <Link to="pageheader" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-gray-400">Home</Link>
+        <Link to="skills" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-gray-400">Skills</Link>
+        <Link to="experience" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-gray-400">Experience</Link>
+        <Link to="work" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-gray-400">Projects</Link>
+        <Link to="contact" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-gray-400">Contacts</Link>
         <div className="inline-block h-[14px] w-[2px] bg-[#F6F7F7]"></div>
         <button
           className="text-[#757D87] ml-3 dark:hidden"

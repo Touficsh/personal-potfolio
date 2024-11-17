@@ -33,7 +33,7 @@
     @apply mobile:mt-4 tablet:mt-8 tablet:ml-8 mobile:text-[10px] mobile:pr-4  mobile:ml-4 tablet:text-sm tablet:pr-16 dark:text-white
 }
 .work-projectLanguages {
-    @apply mobile:mx-1 tablet:mx-2 my-1 mobile:text-[8px] mobile:px-2 tablet:px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white tablet:text-sm rounded-full font-semibold w-fit
+    @apply mobile:mx-1 tablet:mx-2 my-1 mobile:text-[8px] mobile:px-2 tablet:px-4 py-1 bg-[#E6E8EB] dark:bg-[#212121] dark:text-white tablet:text-sm rounded-full font-semibold w-fit
 }
 
 @media (min-width: 320px) {

@@ -1,6 +1,6 @@
 import Anywr from "../assets/images/anywr.webp";
 import Digisol from '../assets/images/digisol.png'
-import Delta from '../assets/images/Delta.png'
+import Delta from '../assets/images/DEG.jpg'
 import Areeba from '../assets/images/Areeba.jpg'
 import { Element } from 'react-scroll';
 
@@ -79,7 +79,7 @@ export default function Experience() {
                         (
                             <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl experience-div bg-white dark:bg-[#171717] dark:text-white shadow-lg">
                             <img src={item.image} className="mobile:w-[100px] w-[100px] h-[50px] self-center" />
-                            <p className="mobile:inline tablet:hidden mobile:text-sm tablet:text-md desktop:text-lg text-[#767D88] font-semibold ">{item.Date}</p>
+                            <p className="mobile:inline mobile:mt-4 tablet:hidden mobile:text-sm tablet:text-md desktop:text-lg text-[#767D88] font-semibold ">{item.Date}</p>
                             <div className=" tablet:mx-10  mobile:w-fit w-[500px]">
                               <p className="mobile:mt-2 tablet:mt-0 font-bold mobile:text-md tablet:text-lg desktop:text-xl">{item.Position}</p>
                               <ul className=" mt-4 list-disc text-sm">
