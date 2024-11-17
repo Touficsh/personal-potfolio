@@ -38,9 +38,9 @@ export default function NavBar() {
           Download CV
         </button> */}
       </div>
-      <div className="tablet:hidden dark:text-white">
+      {/* <div className="tablet:hidden dark:text-white">
         <i className="fa-solid fa-bars mr-8 text-3xl"></i>
-      </div>
+      </div> */}
     </div>
   );
 }
