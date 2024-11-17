@@ -12,9 +12,9 @@ import tailwind from "../assets/images/tailwind.png";
 import Vue from "../assets/images/Vue.png";
 import MPGS from "../assets/images/mpgs.png";
 import Cybersource from "../assets/images/cybersource.png";
-import APAYA from "../assets/images/apaya.png";
+import APAYA from "../assets/images/apaya.jfif";
 import IXOPAY from "../assets/images/ixopay.png";
-import VisaDirect from "../assets/images/visa-direct.jpg";
+import VisaDirect from "../assets/images/visa.webp";
 
 
 const images = [
@@ -75,7 +75,7 @@ const images = [
     image: IXOPAY,
   },
   {
-    title: "Visa Direct",
+    title: "Visa",
     image: VisaDirect,
   },
 ];
@@ -83,9 +83,9 @@ const images = [
 export default function Skills() {
   return (
     <Element name='skills'>
-        <div className='dark:bg-[#030712]'>
+        <div className='dark:bg-[#171717]'>
           <div className="py-14 flex flex-col items-center">
-            <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white  text-sm rounded-full font-semibold w-fit">
+            <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#212121] dark:text-white  text-sm rounded-full font-semibold w-fit">
               Skills
             </p>
             <p className="mt-6 mobile:mx-[30px] mobile:text-md tablet:text-lg desktop:text-xl font-semibold dark:text-white">

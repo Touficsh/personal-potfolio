@@ -13,7 +13,7 @@ export default function NavBar() {
   }, [dark]);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 h-[64px] py-4 flex justify-between dark:bg-[#030712] bg-white">
+    <div className="fixed top-0 left-0 right-0 z-50 h-[64px] py-4 flex justify-between dark:bg-[#171717] bg-white">
       <div className="ml-8 dark:text-white">&nbsp;</div>
       <div className="hidden tablet:flex mr-8 items-center">
         <Link to="about" smooth={true} duration={1000} className="mx-4 cursor-pointer text-[#757D87] dark:text-white font-semibold hover:text-[#030712] dark:hover:text-purple-700">About</Link>

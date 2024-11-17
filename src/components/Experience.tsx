@@ -65,9 +65,9 @@ const experience = [
 export default function Experience() {
   return (
     <Element name='experience'>
-        <div className="bg-[#FAFAFB] dark:bg-[#111827]">
+        <div className="bg-[#FAFAFB] dark:bg-[#212121]">
           <div className="py-20 flex flex-col items-center">
-            <p className=" px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit mx-auto">
+            <p className=" px-4 py-1 bg-[#E6E8EB] dark:bg-[#1A1A1A] dark:text-white text-sm rounded-full font-semibold w-fit mx-auto">
               Experience
             </p>
             <p className="mobile:mx-6 tablet:mx-0 mt-4 font-semibold dark:text-white">
@@ -77,7 +77,7 @@ export default function Experience() {
                 {
                     experience.map((item, index) => 
                         (
-                            <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl experience-div bg-white dark:bg-[#1F2937] dark:text-white shadow-lg">
+                            <div key={index} className="flex mobile:flex-col tablet:flex-row justify-between my-12 p-4 rounded-xl experience-div bg-white dark:bg-[#171717] dark:text-white shadow-lg">
                             <img src={item.image} className="mobile:w-[100px] w-[100px] h-[50px] self-center" />
                             <p className="mobile:inline tablet:hidden mobile:text-sm tablet:text-md desktop:text-lg text-[#767D88] font-semibold ">{item.Date}</p>
                             <div className=" tablet:mx-10  mobile:w-fit w-[500px]">

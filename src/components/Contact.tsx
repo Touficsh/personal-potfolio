@@ -9,9 +9,9 @@ export default function Contact() {
 
   return (
     <Element name='contact'>
-      <div className='bg-[#FAFAFB] dark:bg-[#111827]'>
+      <div className='bg-[#FAFAFB] dark:bg-[#212121]'>
         <div className="flex flex-col py-16 items-center ">
-          <p className="mt-8 px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit">
+          <p className="mt-8 px-4 py-1 bg-[#E6E8EB] dark:bg-[#1A1A1A] dark:text-white text-sm rounded-full font-semibold w-fit">
             About me
           </p>
           <p className="mt-4 mobile:mx-6 mobile:text-base tablet:text-lg font-semibold dark:text-white">

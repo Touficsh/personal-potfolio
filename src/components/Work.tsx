@@ -41,8 +41,8 @@ export default function Work() {
   return (
     <Element name="work">
       <div>
-        <div className="py-20 flex flex-col items-center dark:bg-[#030712]">
-          <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#374151] dark:text-white text-sm rounded-full font-semibold w-fit">
+        <div className="py-20 flex flex-col items-center dark:bg-[#171717]">
+          <p className="px-4 py-1 bg-[#E6E8EB] dark:bg-[#212121] dark:text-white text-sm rounded-full font-semibold w-fit">
             Work
           </p>
           <p className="mt-4 font-semibold work-borderbox dark:text-white">
@@ -63,7 +63,7 @@ export default function Work() {
                   <div
                     className={`mt-16 mobile:px-4 tablet:px-20 flex mobile:flex-col tablet:flex-row`}
                   >
-                    <div className="flex basis-1/2 work-image bg-[#F9F9FB] dark:bg-[#374151] items-center justify-center">
+                    <div className="flex basis-1/2 work-image bg-[#F9F9FB] dark:bg-[#212121] items-center justify-center">
                       <div className="p-8">
                         <img
                           src={item.image}
@@ -73,7 +73,7 @@ export default function Work() {
                       </div>
                     </div>
                     <div
-                      className={`basis-1/2 mobile:work-second-section-mobile tablet:work-second-section-tablet shadow-lg mobile:py-6 tablet:py-16 dark:bg-[#1F2937]`}
+                      className={`basis-1/2 mobile:work-second-section-mobile tablet:work-second-section-tablet shadow-lg mobile:py-6 tablet:py-16 dark:bg-[#2A2A2A]`}
                     >
                       <p className="work-projectName">{item.projectName}</p>
                       <p className="work-projectDescription">

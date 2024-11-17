@@ -2,7 +2,7 @@ import coverPhoto from "../assets/images/coverPhoto.JPG";
 
 export default function PageHeader() {
   return (
-    <div className="mt-[64px] dark:bg-[#030712]">
+    <div className="mt-[64px] dark:bg-[#171717]">
       <div className="intro-div">
         <div className="basis-2/3 mx-8 mt-10 tablet:mt-0">
           <p className="intro-title">Hi, I'm Toufic👋</p>
@@ -32,10 +32,10 @@ export default function PageHeader() {
         <div className="basis-1/3 flex justify-center ">
           <img
             src={coverPhoto}
-            className="w-[150px] h-[200px] z-10 border-[7px] border-white dark:border-[#030712]"
+            className="w-[150px] h-[200px] z-10 border-[7px] border-white dark:border-[#1A1A1A]"
             alt="Image"
           />
-          <div className="bg-[#E6E8EB] w-[170px] h-[180px] mt-7 tablet:w-[150px] tablet:h-[200px] absolute tablet:mt-5 tablet:ml-10 dark:bg-[#374151]"></div>
+          <div className="bg-[#E6E8EB] w-[170px] h-[180px] mt-7 tablet:w-[150px] tablet:h-[200px] absolute tablet:mt-5 tablet:ml-10 dark:bg-[#212121]"></div>
         </div>
       </div>
     </div>
