@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import orenda from '../assets/images/orenda.JPG'
-import elite from '../assets/images/elitesupplements.JPG'
-import digisol from '../assets/images/digisol.JPG'
+import orenda from '../assets/images/orenda.png'
+import elite from '../assets/images/elitesupplements.png'
+import digisol from '../assets/images/digisol.png'
 
 
 export default function Work() {
@@ -104,7 +104,7 @@ export default function Work() {
       </div>
 
       {/* Mobile Pagination Dots Only */}
-      <style jsx>{`
+      <style>{`
         /* Hide pagination dots on tablet and above */
         @media (min-width: 768px) {
           .swiper-pagination {

@@ -1,5 +1,5 @@
 import { Element } from "react-scroll";
-import coverPhoto from "../assets/images/coverPhoto.JPG";
+import coverPhoto from "../assets/images/coverPhoto.png";
 
 export default function PageHeader() {
   return (

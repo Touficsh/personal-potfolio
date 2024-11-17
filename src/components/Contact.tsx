@@ -2,7 +2,7 @@ import { Element } from 'react-scroll';
 
 export default function Contact() {
   // Function to copy text to clipboard
-  const handleCopy = (text) => {
+  const handleCopy = (text: string) => {
     navigator.clipboard.writeText(text).then(() => {
     });
   };
