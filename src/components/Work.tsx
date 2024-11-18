@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 import orenda from '../assets/images/orenda.png'
 import elite from '../assets/images/elitesupplements.png'
-import digisol from '../assets/images/digisol.png'
+import digisol from '../assets/images/digisol-work.png'
 
 
 export default function Work() {
